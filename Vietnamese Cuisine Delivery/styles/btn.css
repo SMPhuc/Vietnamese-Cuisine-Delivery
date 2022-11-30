@@ -1,0 +1,59 @@
+#filterButtons{
+    margin-top: 0px;
+    width: 100%;
+    height: 80px;
+    left: 5%;
+    text-align: center;
+    justify-content: center;
+    background-color: var(--backGroundColor);
+}
+
+.btn{
+    border: none;
+    border-radius: 3%;
+    padding:15px 40px;
+    background-color: var(--mainWhite);
+    color: black;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: monospace;
+}
+
+.btn:hover{
+   color: rgb(196, 196, 152);
+}
+
+.btn.active{
+    background-color: var(--primaryColor);
+    color: black;
+}
+.btn-danger {
+    color: black;
+    background-color: var(--mainWhite);
+    border: none;
+    border-radius: 0.3em;
+    font-weight: bold;
+    margin-top: 0px;
+    font-family: "Comfortaa", cursive;
+}
+
+.btn-danger:hover {
+    background-color: rgb(211, 214, 205);
+    color: #333;
+}
+
+.btn-purchase {
+    color: black;
+    background-color: var(--mainWhite);
+    border: none;
+    border-radius: 0.5em;
+    font-weight: bold;
+    margin-top: 0px;
+    font-family: "Comfortaa", cursive;
+}
+
+.btn-purchase:hover {
+    background-color: rgb(211, 214, 205);
+    color: #333;
+}
+
